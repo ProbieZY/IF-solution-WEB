@@ -77,7 +77,7 @@ body { background:black; overflow:hidden;}
 	text-align: center;
 }
 </style>
-<script src="Aui-core-1.42-min.js" language="javascript" type="text/javascript"></script>
+<script src="../js/Aui-core-1.42-min.js" language="javascript" type="text/javascript"></script>
 
 <script language="javascript" type="text/javascript">
 var Effect = function( a, w, h, s, p, x, y )
@@ -220,42 +220,42 @@ var Effect = function( a, w, h, s, p, x, y )
 
 					var url_page ="#1";
 					console.log(this[i]);
-					switch(this[0]){
+					switch(this[7]){
 						case "1":
-						url_page="../html/1.html";
+						url_page="1.html";
 						break;
 						case "2":
-						url_page="../html/2.html";
+						url_page="2.html";
 						break;
 						case "3":
-						url_page="../html/3.html";
+						url_page="3.html";
 						break;
 						case "4":
-						url_page="../html/4.html";
+						url_page="4.html";
 						break;
 						case "5":
-						url_page="../html/5.html";
+						url_page="5.html";
 						break;
 						case "6":
-						url_page="../html/6.html";
+						url_page="6.html";
 						break;
 						case "7":
-						url_page="../html/7.html";
+						url_page="7.html";
 						break;
 						case "8":
-						url_page="../html/8.html";
+						url_page="8.html";
 						break;
 						case "9":
-						url_page="../html/9.html";
+						url_page="9.html";
 						break;
 						case "a":
-						url_page="../html/a.html";
+						url_page="a.html";
 						break;
 						case "b":
-						url_page="../html/b.html";
+						url_page="b.html";
 						break;
 						case "c":
-						url_page="../html/c.html";
+						url_page="c.html";
 						break;
 
 					}
@@ -374,7 +374,7 @@ Aui.ready( function()
 	else
 	{
 		Effect( 
-			[ "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "a.jpg", "b.jpg", "c.jpg" ],
+			[ "../img/1.jpg", "../img/2.jpg", "../img/3.jpg", "../img/4.jpg", "../img/5.jpg", "../img/6.jpg", "../img/7.jpg", "../img/8.jpg", "../img/9.jpg", "../img/a.jpg", "../img/b.jpg", "../img/c.jpg" ],
 			200,
 			300,
 			Aui.byID("#stage"),
@@ -391,7 +391,7 @@ Aui.ready( function()
 
 <dl id="stage"></dl>
 <div class="logo">
-	<img src="logo.png" alt="IF TECH" />
+	<img src="../img/logo.png" alt="IF TECH" />
 </div>
 </body>
 </html>
